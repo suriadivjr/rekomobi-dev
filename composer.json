@@ -1,0 +1,19 @@
+{
+    "name": "budak-it/rekomobi-dev",
+    "description": "composer for rekomobi semantic website",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Muhammad Razzaaq Fadilah",
+            "email": "abdurrazzaaqfad@gmail.com"
+        },
+        {
+            "name": "Suriadi Vajrakaruna",
+            "email": "suriadivajrakaruna432@gmail.com"
+        }
+    ],
+    "require": {
+        "easyrdf/easyrdf": "*"
+    }
+}

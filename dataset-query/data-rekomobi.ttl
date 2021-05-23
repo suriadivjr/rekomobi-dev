@@ -1,0 +1,336 @@
+# START OF DATASET
+
+PREFIX p: <http://www.rekomobi.com>
+PREFIX d: <http://www.rekomobi.com/dataset/data#>
+
+# start of Toyota Manufacture
+
+d:C01   d:merek             "Toyota";
+        d:nama              "Innova";
+        d:jenis             "MPV";
+        d:harga             "321100000";
+        d:rating            "4.7".
+
+d:C02   d:merek             "Toyota";
+        d:nama              "Vellfire";
+        d:jenis             "MPV";
+        d:harga             "1216950000";
+        d:rating            "4.2".
+
+d:C03   d:merek             "Toyota";
+        d:nama              "Voxy";
+        d:jenis             "MPV";
+        d:harga             "506750000";
+        d:rating            "4.0".
+
+d:C04   d:merek             "Toyota";
+        d:nama              "Sienta";
+        d:jenis             "MPV";
+        d:harga             "248100000";
+        d:rating            "3.6".
+
+d:C05   d:merek             "Toyota";
+        d:nama              "Alphard";
+        d:jenis             "MPV";
+        d:harga             "1218950000";
+        d:rating            "4.9".
+
+d:C06   d:merek             "Toyota";
+        d:nama              "Calya";
+        d:jenis             "MPV";
+        d:harga             "141475000";
+        d:rating            "4.1".
+
+d:C07   d:merek             "Toyota";
+        d:nama              "Avanza";
+        d:jenis             "MPV";
+        d:harga             "183650000";
+        d:rating            "4.8".
+
+d:C08   d:merek             "Toyota";
+        d:nama              "Raize";
+        d:jenis             "SUV";
+        d:harga             "219900000";
+        d:rating            "3.9".
+
+d:C09   d:merek             "Toyota";
+        d:nama              "Rush";
+        d:jenis             "SUV";
+        d:harga             "238030000";
+        d:rating            "3.8".
+
+d:C10   d:merek             "Toyota";
+        d:nama              "Corolla Cross";
+        d:jenis             "SUV";
+        d:harga             "458510000";
+        d:rating            "4.4".
+
+d:C11   d:merek             "Toyota";
+        d:nama              "Land Cruiser";
+        d:jenis             "SUV";
+        d:harga             "2122574500";
+        d:rating            "4.9".
+
+d:C12   d:merek             "Toyota";
+        d:nama              "Fortuner 4x2";
+        d:jenis             "SUV";
+        d:harga             "438600000";
+        d:rating            "4.7".
+
+d:C13   d:merek             "Toyota";
+        d:nama              "Fortuner 4x4";
+        d:jenis             "SUV";
+        d:harga             "605800000";
+        d:rating            "4.9".
+
+d:C14   d:merek             "Toyota";
+        d:nama              "C-HR";
+        d:jenis             "SUV";
+        d:harga             "509800000";
+        d:rating            "3.8".
+
+d:C15   d:merek             "Toyota";
+        d:nama              "Yaris";
+        d:jenis             "Hatchback";
+        d:harga             "238300000";
+        d:rating            "4.0".
+
+d:C16   d:merek             "Toyota";
+        d:nama              "Agya";
+        d:jenis             "Hatchback";
+        d:harga             "136900000";
+        d:rating            "4.1".
+
+d:C17   d:merek             "Toyota";
+        d:nama              "Vios";
+        d:jenis             "Sedan";
+        d:harga             "244400000";
+        d:rating            "3.4".
+
+d:C18   d:merek             "Toyota";
+        d:nama              "Camry";
+        d:jenis             "Sedan";
+        d:harga             "644250000";
+        d:rating            "4.8".
+        
+d:C19   d:merek             "Toyota";
+        d:nama              "Altis";
+        d:jenis             "Sedan";
+        d:harga             "487800000";
+        d:rating            "4.0".
+
+d:C20   d:merek             "Toyota";
+        d:nama              "Supra";
+        d:jenis             "Sport";
+        d:harga             "2147100000";
+        d:rating            "3.2".
+
+d:C21   d:merek             "Toyota";
+        d:nama              "FT86";
+        d:jenis             "Sport";
+        d:harga             "783800000";
+        d:rating            "4.2".
+
+d:C22   d:merek             "Toyota";
+        d:nama              "Hilux Single Cabin";
+        d:jenis             "Commercial";
+        d:harga             "241750000";
+        d:rating            "4.9".
+
+d:C23   d:merek             "Toyota";
+        d:nama              "Hiace";
+        d:jenis             "Commercial";
+        d:harga             "498970000";
+        d:rating            "4.6".
+
+d:C24   d:merek             "Toyota";
+        d:nama              "Hilux Double Cabin";
+        d:jenis             "Commercial";
+        d:harga             "424600000";
+        d:rating            "3.6".
+
+# end of Toyota Manufacture
+# start of Daihatsu Manufacture
+
+d:C25   d:merek             "Daihatsu";
+        d:nama              "Rocky";
+        d:jenis             "SUV";
+        d:harga             "214200000";
+        d:rating            "3.8".
+
+d:C26   d:merek             "Daihatsu";
+        d:nama              "Ayla";
+        d:jenis             "Hatchback";
+        d:harga             "103300000";
+        d:rating            "3.9".
+
+d:C27   d:merek             "Daihatsu";
+        d:nama              "Sigra";
+        d:jenis             "MPV";
+        d:harga             "120650000";
+        d:rating            "4.2".
+
+d:C28   d:merek             "Daihatsu";
+        d:nama              "Xenia";
+        d:jenis             "MPV";
+        d:harga             "184500000";
+        d:rating            "4.6".
+
+d:C29   d:merek             "Daihatsu";
+        d:nama              "Terios";
+        d:jenis             "SUV";
+        d:harga             "200000000";
+        d:rating            "4.2".
+
+d:C30   d:merek             "Daihatsu";
+        d:nama              "Sirion";
+        d:jenis             "Hatchback";
+        d:harga             "201750000";
+        d:rating            "3.1".
+
+d:C31   d:merek             "Daihatsu";
+        d:nama              "Luxio";
+        d:jenis             "MPV";
+        d:harga             "192300000";
+        d:rating            "3.5".
+
+d:C32   d:merek             "Daihatsu";
+        d:nama              "Grandmax MB";
+        d:jenis             "Commercial";
+        d:harga             "163800000";
+        d:rating            "4.2".
+
+d:C33   d:merek             "Daihatsu";
+        d:nama              "Grandmax PU";
+        d:jenis             "Commercial";
+        d:harga             "144400000";
+        d:rating            "4.0".
+        
+# end of Daihatsu Manufacture
+# start of Honda Manufacture
+
+d:C34   d:merek             "Honda";
+        d:nama              "Brio";
+        d:jenis             "Hatchback";
+        d:harga             "151700000";
+        d:rating            "4.2".
+
+d:C35   d:merek             "Honda";
+        d:nama              "Mobilio";
+        d:jenis             "MPV";
+        d:harga             "198100000";
+        d:rating            "3.8".
+
+d:C36   d:merek             "Honda";
+        d:nama              "Jazz";
+        d:jenis             "Hatchback";
+        d:harga             "257000000";
+        d:rating            "4.0".
+
+d:C37   d:merek             "Honda";
+        d:nama              "BR-V";
+        d:jenis             "MPV";
+        d:harga             "240000000";
+        d:rating            "3.6".
+
+d:C38   d:merek             "Honda";
+        d:nama              "HR-V";
+        d:jenis             "SUV";
+        d:harga             "198100000";
+        d:rating            "3.8".
+
+d:C39   d:merek             "Honda";
+        d:nama              "CR-V";
+        d:jenis             "SUV";
+        d:harga             "490000000";
+        d:rating            "4.1".
+
+d:C40   d:merek             "Honda";
+        d:nama              "City";
+        d:jenis             "Sedan";
+        d:harga             "356750000";
+        d:rating            "3.3".
+
+d:C41   d:merek             "Honda";
+        d:nama              "Civic Hathback";
+        d:jenis             "Hatchback";
+        d:harga             "503400000";
+        d:rating            "4.7".
+
+d:C42   d:merek             "Honda";
+        d:nama              "Civic Sedan";
+        d:jenis             "Sedan";
+        d:harga             "537750000";
+        d:rating            "4.8".
+
+d:C43   d:merek             "Honda";
+        d:nama              "Accord";
+        d:jenis             "Sedan";
+        d:harga             "735250000";
+        d:rating            "4.1".
+
+d:C44   d:merek             "Honda";
+        d:nama              "Odyssey";
+        d:jenis             "MPV";
+        d:harga             "889000000";
+        d:rating            "3.9".
+
+# end of Honda Manufacture
+# start of Mitsubitshi Manufacture
+
+d:C45   d:merek             "Mitsubishi";
+        d:nama              "Xpander";
+        d:jenis             "MPV";
+        d:harga             "221400000";
+        d:rating            "4.6".
+
+d:C46   d:merek             "Mitsubishi";
+        d:nama              "Xpander Cross";
+        d:jenis             "MPV";
+        d:harga             "276500000";
+        d:rating            "4.2".
+
+d:C47   d:merek             "Mitsubishi";
+        d:nama              "Pajero Sport";
+        d:jenis             "SUV";
+        d:harga             "502800000";
+        d:rating            "4.6".
+
+d:C48   d:merek             "Mitsubishi";
+        d:nama              "Triton";
+        d:jenis             "Commercial";
+        d:harga             "262650000";
+        d:rating            "4.1".
+
+d:C49   d:merek             "Mitsubishi";
+        d:nama              "L300";
+        d:jenis             "Commercial";
+        d:harga             "194000000";
+        d:rating            "3.8".
+
+d:C50   d:merek             "Mitsubishi";
+        d:nama              "Xpander Limited";
+        d:jenis             "MPV";
+        d:harga             "276600000";
+        d:rating            "4.5".
+
+d:C51   d:merek             "Mitsubishi";
+        d:nama              "Eclipse Cross";
+        d:jenis             "SUV";
+        d:harga             "488750000";
+        d:rating            "4.0".
+
+d:C52   d:merek             "Mitsubishi";
+        d:nama              "Outlander PHEV";
+        d:jenis             "SUV";
+        d:harga             "890000000";
+        d:rating            "4.0".
+
+d:C53   d:merek             "Mitsubishi";
+        d:nama              "Colt";
+        d:jenis             "Commercial";
+        d:harga             "126895000";
+        d:rating            "4.0".
+
+# end of Mitsubishi Manufacture
+# END OF DATASET
