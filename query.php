@@ -2,62 +2,82 @@
 require_once "./vendor/autoload.php";
 \EasyRdf\RdfNamespace::set('p', 'http://www.rekomobi.com');
 \EasyRdf\RdfNamespace::set('d', 'http://www.rekomobi.com/dataset/data#');
+$last_keywords = "";
 
-
-function search(
-    $keywords,
-    $sortByHargaAsc = false,
-    $sortByHargaDesc = false,
-    $sortByRatingAsc = false,
-    $sortByRatingDesc = false
-) {
+function search($keywords, $sortBy)
+{
     $sortQuery = "";
-    if ($sortByHargaAsc) $sortQuery = "ORDER BY ASC(?harga)";
-    if ($sortByHargaDesc) $sortQuery = "ORDER BY DESC(?harga)";
-    if ($sortByRatingAsc) $sortQuery = "ORDER BY ASC(?rating)";
-    if ($sortByRatingDesc) $sortQuery = "ORDER BY DESC(?rating)";
+    switch ($sortBy) {
+        case "harga-asc":
+            $sortQuery = "ORDER BY ASC(?harga)";
+            break;
 
-    $sparql = new \EasyRdf\Sparql\Client("https://ee97bb940262.ngrok.io/rekomobi-dev");
-    $results = $sparql->query("SELECT ?x ?merek ?nama ?jenis ?harga ?rating 
-    WHERE { {
-            LET ( ?merek := '" . $keywords . "' )
-            ?x d:merek ?merek .
-            ?x d:nama ?nama .
-            ?x d:jenis ?jenis .
-            ?x d:harga ?harga .
-            ?x d:rating ?rating . }
-    UNION { LET ( ?nama := '" . $keywords . "' )
-            ?x d:nama ?nama .
-            ?x d:merek ?merek .
-            ?x d:jenis ?jenis .
-            ?x d:harga ?harga .  
-            ?x d:rating ?rating . } 
-    UNION { LET ( ?jenis := '" . $keywords . "' )
-            ?x d:jenis ?jenis .
-            ?x d:nama ?nama .
-            ?x d:merek ?merek .  
-            ?x d:harga ?harga . 
-            ?x d:rating ?rating . }} ".$sortQuery);
+        case "harga-desc":
+            $sortQuery = "ORDER BY DESC(?harga)";
+            break;
 
-    return $results;
+        case "rating-asc":
+            $sortQuery = "ORDER BY ASC(?rating)";
+            break;
+
+        case "rating-desc":
+            $sortQuery = "ORDER BY DESC(?rating)";
+            break;
+
+        default:
+            $sortQuery = "";
+    }
+
+    $sparql = new \EasyRdf\Sparql\Client("http://localhost:3030/rekomobi-dev");
+    $search_results = $sparql->query("SELECT ?x ?merek ?nama ?jenis ?harga ?rating 
+    WHERE {
+            {
+                ?x d:merek ?merek .
+                ?x d:nama ?nama .
+                ?x d:jenis ?jenis .
+                ?x d:harga ?harga .
+                ?x d:rating ?rating .
+                FILTER regex(?merek, '". $keywords . "', 'i') .
+            }
+            
+            UNION
+            {
+                ?x d:merek ?merek .
+                ?x d:nama ?nama .
+                ?x d:jenis ?jenis .
+                ?x d:harga ?harga .
+                ?x d:rating ?rating .
+                FILTER regex(?nama, '". $keywords . "', 'i') .
+            }
+
+            UNION
+            {
+                ?x d:merek ?merek .
+                ?x d:nama ?nama .
+                ?x d:jenis ?jenis .
+                ?x d:harga ?harga .
+                ?x d:rating ?rating .
+                FILTER regex(?jenis, '". $keywords . "', 'i') .
+            }
+            
+        }" . $sortQuery);
+
+    return $search_results;
 }
 
-function recommend($formData){
-    $jenis = $formData['jenis'];
-    $hargaMin = $formData['hargaMin'];
-    $hargaMax = $formData['hargaMax'];
-
-    $sparql = new \EasyRdf\Sparql\Client("https://ee97bb940262.ngrok.io/rekomobi-dev");
-    $results = $sparql->query("SELECT ?x ?merek ?nama ?jenis ?harga ?rating 
+function recommend($jenis, $hargaMin, $hargaMax)
+{
+    $sparql = new \EasyRdf\Sparql\Client("http://localhost:3030/rekomobi-dev");
+    $recommend_results = $sparql->query("SELECT ?x ?merek ?nama ?jenis ?harga ?rating 
     WHERE { 
-        LET ( ?jenis := '".$jenis."' )
+        LET ( ?jenis := '" . $jenis . "' )
         ?x d:jenis ?jenis .
         ?x d:merek ?merek .
         ?x d:nama ?nama  .
         ?x d:harga ?harga .
         ?x d:rating ?rating . 
-        FILTER (?harga > ".$hargaMin.".&& ?harga < ".$hargaMax.").
+        FILTER (?harga > " . $hargaMin . ".&& ?harga < " . $hargaMax . ").
         }");
 
-    return $results;
+    return $recommend_results;
 }
