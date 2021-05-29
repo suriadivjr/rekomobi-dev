@@ -318,3 +318,183 @@ d:C24   d:harga   424600000 ;
         d:merek   "Toyota" ;
         d:nama    "Hilux Double Cabin" ;
         d:rating  3.6 .
+
+d:C54   d:harga   150500000 ;
+        d:jenis   "Hatchback" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Karimun 50th Anniversary Edition" ;
+        d:rating  3.0 .
+
+d:C55   d:harga   175500000 ;
+        d:jenis   "Hatchback" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Ignis" ;
+        d:rating  3.1 .
+
+d:C56   d:harga   235000000 ;
+        d:jenis   "Hatchback" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Baleno" ;
+        d:rating  3.4 .
+
+d:C57   d:harga   122000000 ;
+        d:jenis   "Hatchback" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Karimun Wagon R" ;
+        d:rating  2.8 .
+
+d:C58   d:harga   302000000 ;
+        d:jenis   "Hatchback" ;
+        d:merek   "Suzuki" ;
+        d:nama    "SX4 S-Cross" ;
+        d:rating  3.1 .
+
+d:C59   d:harga   224050000 ;
+        d:jenis   "SUV" ;
+        d:merek   "Suzuki" ;
+        d:nama    "XL7" ;
+        d:rating  3.0 .
+
+d:C60   d:harga    395500000;
+        d:jenis   "SUV" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Jimny" ;
+        d:rating  3.6 .
+
+d:C61   d:harga   199400000 ;
+        d:jenis   "MPV" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Ertiga" ;
+        d:rating  3.5 .
+
+d:C62   d:harga    242850000;
+        d:jenis   "MPV" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Ertiga Sport" ;
+        d:rating  3.6 .
+
+d:C63   d:harga   152500000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Suzuki" ;
+        d:nama    "Carry Pick-Up" ;
+        d:rating  3.6 .
+
+d:C64   d:harga   160500000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Suzuki" ;
+        d:nama    "APV Arena" ;
+        d:rating  3.2 .
+
+d:C65   d:harga   234000000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Suzuki" ;
+        d:nama    "APV Luxury" ;
+        d:rating  3.4 .
+
+d:C66   d:harga   231800000 ;
+        d:jenis   "MPV" ;
+        d:merek   "Nissan" ;
+        d:nama    "Livina" ;
+        d:rating  3.7 .
+
+d:C67   d:harga   465150000 ;
+        d:jenis   "MPV" ;
+        d:merek   "Nissan" ;
+        d:nama    "Serena" ;
+        d:rating  3.5 .
+
+d:C68   d:harga   1019000000 ;
+        d:jenis   "MPV" ;
+        d:merek   "Nissan" ;
+        d:nama    "Elgrand" ;
+        d:rating  3.5 .
+
+d:C69   d:harga   549750000 ;
+        d:jenis   "SUV" ;
+        d:merek   "Nissan" ;
+        d:nama    "X-Trail" ;
+        d:rating  3.8 .
+
+d:C70   d:harga   481900000 ;
+        d:jenis   "SUV" ;
+        d:merek   "Nissan" ;
+        d:nama    "Terra" ;
+        d:rating  3.7 .
+
+d:C71   d:harga   451000000 ;
+        d:jenis   "SUV" ;
+        d:merek   "Nissan" ;
+        d:nama    "Kicks e-Power" ;
+        d:rating  3.2 .
+
+d:C72   d:harga   208800000 ;
+        d:jenis   "SUV" ;
+        d:merek   "Nissan" ;
+        d:nama    "Magnite" ;
+        d:rating  3.6 .
+
+d:C73   d:harga   610300000 ;
+        d:jenis   "Sedan" ;
+        d:merek   "Nissan" ;
+        d:nama    "Teana" ;
+        d:rating  3.4 .
+
+d:C74   d:harga   112090000 ;
+        d:jenis   "MPV" ;
+        d:merek   "Datsun" ;
+        d:nama    "Go" ;
+        d:rating  2.6 .
+
+d:C75   d:harga   120270000 ;
+        d:jenis   "MPV" ;
+        d:merek   "Datsun" ;
+        d:nama    "Go+" ;
+        d:rating  2.8 .
+
+d:C76   d:harga   161490000 ;
+        d:jenis   "SUV" ;
+        d:merek   "Datsun" ;
+        d:nama    "Cross" ;
+        d:rating  2.9 .
+
+d:C77   d:harga   475000000 ;
+        d:jenis   "SUV" ;
+        d:merek   "Isuzu" ;
+        d:nama    "MU-X" ;
+        d:rating  4.0 .
+
+d:C78   d:harga   213800000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Isuzu" ;
+        d:nama    "Traga" ;
+        d:rating  4.2 .
+
+d:C79   d:harga   362600000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Isuzu" ;
+        d:nama    "D-Max" ;
+        d:rating  4.5 .
+
+d:C80   d:harga   330100000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Isuzu" ;
+        d:nama    "Elf N Series" ;
+        d:rating  4.4 .
+
+d:C81   d:harga   431300000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Isuzu" ;
+        d:nama    "Elf Microbus" ;
+        d:rating  4.2 .
+
+d:C82   d:harga   490000000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Isuzu" ;
+        d:nama    "GIGA F-Series" ;
+        d:rating  4.8 .
+
+d:C83   d:harga   448500000 ;
+        d:jenis   "Commercial" ;
+        d:merek   "Nissan" ;
+        d:nama    "Navara" ;
+        d:rating  4.9 .
