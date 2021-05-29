@@ -2,9 +2,9 @@
 require_once "./vendor/autoload.php";
 \EasyRdf\RdfNamespace::set('p', 'http://www.rekomobi.com');
 \EasyRdf\RdfNamespace::set('d', 'http://www.rekomobi.com/dataset/data#');
-$last_keywords = "";
+$last_word = "";
 
-function search($keywords, $sortBy)
+function search_word($word, $sortBy)
 {
     $sortQuery = "";
     switch ($sortBy) {
@@ -37,7 +37,7 @@ function search($keywords, $sortBy)
                 ?x d:jenis ?jenis .
                 ?x d:harga ?harga .
                 ?x d:rating ?rating .
-                FILTER regex(?merek, '". $keywords . "', 'i') .
+                FILTER regex(?merek, '". $word . "', 'i') .
             }
             
             UNION
@@ -47,7 +47,7 @@ function search($keywords, $sortBy)
                 ?x d:jenis ?jenis .
                 ?x d:harga ?harga .
                 ?x d:rating ?rating .
-                FILTER regex(?nama, '". $keywords . "', 'i') .
+                FILTER regex(?nama, '". $word . "', 'i') .
             }
 
             UNION
@@ -57,7 +57,7 @@ function search($keywords, $sortBy)
                 ?x d:jenis ?jenis .
                 ?x d:harga ?harga .
                 ?x d:rating ?rating .
-                FILTER regex(?jenis, '". $keywords . "', 'i') .
+                FILTER regex(?jenis, '". $word . "', 'i') .
             }
             
         }" . $sortQuery);
@@ -65,8 +65,35 @@ function search($keywords, $sortBy)
     return $search_results;
 }
 
-function recommend($jenis, $hargaMin, $hargaMax)
+function search_keywords($keywords, $sortBy)
 {
+    
+}
+
+function recommend($jenis, $hargaMin, $hargaMax, $sortBy)
+{
+    $sortQuery = "";
+    switch ($sortBy) {
+        case "harga-asc":
+            $sortQuery = "ORDER BY ASC(?harga)";
+            break;
+
+        case "harga-desc":
+            $sortQuery = "ORDER BY DESC(?harga)";
+            break;
+
+        case "rating-asc":
+            $sortQuery = "ORDER BY ASC(?rating)";
+            break;
+
+        case "rating-desc":
+            $sortQuery = "ORDER BY DESC(?rating)";
+            break;
+
+        default:
+            $sortQuery = "";
+    }
+
     $sparql = new \EasyRdf\Sparql\Client("http://localhost:3030/rekomobi-dev");
     $recommend_results = $sparql->query("SELECT ?x ?merek ?nama ?jenis ?harga ?rating 
     WHERE { 
@@ -76,8 +103,8 @@ function recommend($jenis, $hargaMin, $hargaMax)
         ?x d:nama ?nama  .
         ?x d:harga ?harga .
         ?x d:rating ?rating . 
-        FILTER (?harga > " . $hargaMin . ".&& ?harga < " . $hargaMax . ").
-        }");
+        FILTER (?harga > " . $hargaMin . " && ?harga < " . $hargaMax . ").
+        }" . $sortQuery);
 
     return $recommend_results;
 }
