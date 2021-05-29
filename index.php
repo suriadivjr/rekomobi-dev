@@ -22,7 +22,7 @@ require_once './query.php';
 if (isset($_POST['keywords'], $_POST['sortBy'])) {
     $keywords = $_POST['keywords'];
     $sortBy = $_POST['sortBy'];
-    $search_results = search($keywords, $sortBy);
+    $search_results = search_word($keywords, $sortBy);
 }
 ?>
 
@@ -31,7 +31,7 @@ if (isset($_POST['keywords'], $_POST['sortBy'])) {
     <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
             <a class="navbar-brand" href="#!">Rekomobi</a>
-            <button type="button" class="btn-primary" href="#">Car Recommendation</button>
+            <a class="btn-primary" href="./recommendation.php">Car Recommendation</a>
         </div>
     </nav>
     <!-- Masthead-->
@@ -108,8 +108,6 @@ if (isset($_POST['keywords'], $_POST['sortBy'])) {
     </section>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>
