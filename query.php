@@ -65,11 +65,6 @@ function search_word($word, $sortBy)
     return $search_results;
 }
 
-function search_keywords($keywords, $sortBy)
-{
-    
-}
-
 function recommend($jenis, $hargaMin, $hargaMax, $sortBy)
 {
     $sortQuery = "";
