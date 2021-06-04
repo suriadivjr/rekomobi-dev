@@ -22,7 +22,7 @@ require_once './query.php';
 if (isset($_POST['keywords'], $_POST['sortBy'])) {
     $keywords = $_POST['keywords'];
     $sortBy = $_POST['sortBy'];
-    $search_results = search_word($keywords, $sortBy);
+    $search_results = search($keywords, $sortBy);
 }
 ?>
 

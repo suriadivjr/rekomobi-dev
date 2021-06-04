@@ -4,7 +4,7 @@ require_once "./vendor/autoload.php";
 \EasyRdf\RdfNamespace::set('d', 'http://www.rekomobi.com/dataset/data#');
 $last_word = "";
 
-function search_word($word, $sortBy)
+function search($keywords, $sortBy)
 {
     $sortQuery = "";
     switch ($sortBy) {
@@ -28,28 +28,32 @@ function search_word($word, $sortBy)
             $sortQuery = "";
     }
 
-    $sparql = new \EasyRdf\Sparql\Client("http://localhost:3030/rekomobi-dev");
-    $search_results = $sparql->query("SELECT ?x ?merek ?nama ?jenis ?harga ?rating 
-    WHERE {
-            {
-                ?x d:merek ?merek .
-                ?x d:nama ?nama .
-                ?x d:jenis ?jenis .
-                ?x d:harga ?harga .
-                ?x d:rating ?rating .
-                FILTER regex(?merek, '". $word . "', 'i') .
-            }
-            
-            UNION
-            {
-                ?x d:merek ?merek .
-                ?x d:nama ?nama .
-                ?x d:jenis ?jenis .
-                ?x d:harga ?harga .
-                ?x d:rating ?rating .
-                FILTER regex(?nama, '". $word . "', 'i') .
-            }
+    $words = explode(" ", $keywords);
+    $query = "";
+    $counter = 0;
 
+    foreach($words as $word) {
+        if($counter === 0) {
+            $query = "SELECT DISTINCT ?x ?merek ?nama ?jenis ?harga ?rating 
+            WHERE {
+            {
+                ?x d:merek ?merek .
+                ?x d:nama ?nama .
+                ?x d:jenis ?jenis .
+                ?x d:harga ?harga .
+                ?x d:rating ?rating .
+                FILTER ( regex(?merek, '" . $word . "', 'i') || regex(?jenis, '" . $word . "', 'i') || regex(?nama, '" . $word . "', 'i') ).
+            }
+             ";
+            $counter++;
+        }
+
+        if($counter === count($words)) {
+            $query = $query . " } " . $sortQuery;
+        }
+
+        if($counter !== count($words) && $counter !== 0) {
+            $union = "
             UNION
             {
                 ?x d:merek ?merek .
@@ -57,10 +61,16 @@ function search_word($word, $sortBy)
                 ?x d:jenis ?jenis .
                 ?x d:harga ?harga .
                 ?x d:rating ?rating .
-                FILTER regex(?jenis, '". $word . "', 'i') .
-            }
-            
-        }" . $sortQuery);
+                FILTER ( regex(?merek, '" . $word . "', 'i') || regex(?jenis, '" . $word . "', 'i') || regex(?nama, '" . $word . "', 'i') ).
+            }";
+
+            $query = $query . $union;
+            $counter++;
+        }
+    }
+
+    $sparql = new \EasyRdf\Sparql\Client("http://localhost:3030/rekomobi-dev");
+    $search_results = $sparql->query($query);
 
     return $search_results;
 }
