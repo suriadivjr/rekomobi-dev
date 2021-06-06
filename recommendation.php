@@ -59,7 +59,7 @@ if (isset($_POST['jenis'], $_POST['hargaMin'], $_POST['hargaMax'], $_POST['sortB
                             </div><br>
                             <h5 class="mb-2">Insert your preferred car price range:</h5>
                             <div class="input-group input-group-lg">
-                                <input value="<?php echo $hargaMin ?>" class="form-control" type="number" placeholder="Lowest Price" aria-label="Lowest Price" name="hargaMin" id="minPrice" required min="0" onchange="document.getElementById('maxPrice').min=this.value;" />
+                                <input value="<?php echo $hargaMin ?>" class="form-control" type="number" placeholder="Lowest Price" aria-label="Lowest Price" name="hargaMin" id="minPrice" required min="0" onchange="document.getElementById('maxPrice').min=parseInt(this.value)+1;" />
                                 <input value="<?php echo $hargaMax ?>" class="form-control" type="number" placeholder="Highest Price" aria-label="Highest Price" name="hargaMax" id="maxPrice" required />
                             </div>
                             <br>
@@ -85,7 +85,7 @@ if (isset($_POST['jenis'], $_POST['hargaMin'], $_POST['hargaMax'], $_POST['sortB
     <section class="features-icons bg-light text-center">
         <?php if (isset($jenis) && isset($hargaMin) && isset($hargaMax) && !empty((array) $recommend_results)) { ?>
             <h1 class="mb-5">Your recommendation results</h1>
-        <?php } else if (isset($keywords) && empty((array) $search_results)) { ?>
+        <?php } else if (isset($jenis) && empty((array) $recommend_results)) { ?>
             <h1 class="mb-5">No result found</h1>
         <?php } else { ?>
             <h1 class="mb-5">
