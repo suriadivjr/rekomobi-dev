@@ -28,46 +28,19 @@ function search($keywords, $sortBy)
             $sortQuery = "";
     }
 
-    $words = explode(" ", $keywords);
-    $query = "";
-    $counter = 0;
 
-    foreach($words as $word) {
-        if($counter === 0) {
-            $query = "SELECT DISTINCT ?x ?merek ?nama ?jenis ?harga ?rating 
+    $query = "SELECT ?x ?merek ?nama ?jenis ?harga ?rating ?keywords
             WHERE {
-            {
-                ?x d:merek ?merek .
-                ?x d:nama ?nama .
-                ?x d:jenis ?jenis .
-                ?x d:harga ?harga .
-                ?x d:rating ?rating .
-                FILTER ( regex(?merek, '" . $word . "', 'i') || regex(?jenis, '" . $word . "', 'i') || regex(?nama, '" . $word . "', 'i') ).
-            }
-             ";
-            $counter++;
-        }
-
-        if($counter === count($words)) {
-            $query = $query . " } " . $sortQuery;
-        }
-
-        if($counter !== count($words) && $counter !== 0) {
-            $union = "
-            UNION
-            {
-                ?x d:merek ?merek .
-                ?x d:nama ?nama .
-                ?x d:jenis ?jenis .
-                ?x d:harga ?harga .
-                ?x d:rating ?rating .
-                FILTER ( regex(?merek, '" . $word . "', 'i') || regex(?jenis, '" . $word . "', 'i') || regex(?nama, '" . $word . "', 'i') ).
-            }";
-
-            $query = $query . $union;
-            $counter++;
-        }
-    }
+                {
+                    ?x d:merek ?merek .
+                    ?x d:nama ?nama .
+                    ?x d:jenis ?jenis .
+                    ?x d:harga ?harga .
+                    ?x d:rating ?rating .
+                    ?x d:keywords ?keywords .
+                    FILTER ( regex(?merek, '" . $keywords . "', 'i') || regex(?jenis, '" . $keywords . "', 'i') || regex(?nama, '" . $keywords . "', 'i') || regex(?keywords, '" . $keywords . "', 'i') ).
+                }
+            }" . $sortQuery;
 
     $sparql = new \EasyRdf\Sparql\Client("http://localhost:3030/rekomobi-dev");
     $search_results = $sparql->query($query);
