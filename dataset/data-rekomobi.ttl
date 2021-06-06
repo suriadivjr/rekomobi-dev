@@ -5,496 +5,579 @@ d:C07   d:harga   183650000 ;
         d:jenis   "MPV" ;
         d:merek   "Toyota" ;
         d:nama    "Avanza" ;
-        d:rating  4.8 .
+        d:rating  4.8 ;
+        d:keywords "Toyota Avanza" .
 
 d:C40   d:harga   356750000 ;
         d:jenis   "Sedan" ;
         d:merek   "Honda" ;
         d:nama    "City" ;
-        d:rating  3.3 .
+        d:rating  3.3 ;
+        d:keywords "Honda City" .
 
 d:C25   d:harga   214200000 ;
         d:jenis   "SUV" ;
         d:merek   "Daihatsu" ;
         d:nama    "Rocky" ;
-        d:rating  3.8 .
+        d:rating  3.8 ;
+        d:keywords "Daihatsu Rocky" .
 
 d:C02   d:harga   1216950000 ;
         d:jenis   "MPV" ;
         d:merek   "Toyota" ;
         d:nama    "Vellfire" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Toyota Vellfire" .
 
 d:C38   d:harga   198100000 ;
         d:jenis   "SUV" ;
         d:merek   "Honda" ;
         d:nama    "HR-V" ;
-        d:rating  3.8 .
+        d:rating  3.8 ;
+        d:keywords "Honda HR-V" .
 
 d:C32   d:harga   163800000 ;
         d:jenis   "Commercial" ;
         d:merek   "Daihatsu" ;
         d:nama    "Grandmax MB" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Daihatsu Grandmax MB" .
 
 d:C12   d:harga   438600000 ;
         d:jenis   "SUV" ;
         d:merek   "Toyota" ;
         d:nama    "Fortuner 4x2" ;
-        d:rating  4.7 .
+        d:rating  4.7 ;
+        d:keywords "Toyota Fortuner 4x2" .
 
 d:C31   d:harga   192300000 ;
         d:jenis   "MPV" ;
         d:merek   "Daihatsu" ;
         d:nama    "Luxio" ;
-        d:rating  3.5 .
+        d:rating  3.5 ;
+        d:keywords "Daihatsu Luxio" .
 
 d:C50   d:harga   276600000 ;
         d:jenis   "MPV" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Xpander Limited" ;
-        d:rating  4.5 .
+        d:rating  4.5 ;
+        d:keywords "Mitsubishi Xpander Limited" .
 
 d:C53   d:harga   126895000 ;
         d:jenis   "Commercial" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Colt" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Mitsubishi Colt" .
 
 d:C26   d:harga   103300000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Daihatsu" ;
         d:nama    "Ayla" ;
-        d:rating  3.9 .
+        d:rating  3.9 ;
+        d:keywords "Daihatsu Ayla" .
 
 d:C37   d:harga   240000000 ;
         d:jenis   "MPV" ;
         d:merek   "Honda" ;
         d:nama    "BR-V" ;
-        d:rating  3.6 .
+        d:rating  3.6 ;
+        d:keywords "Honda BR-V" .
 
 d:C34   d:harga   151700000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Honda" ;
         d:nama    "Brio" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Honda Brio" .
 
 d:C03   d:harga   506750000 ;
         d:jenis   "MPV" ;
         d:merek   "Toyota" ;
         d:nama    "Voxy" ;
-        d:rating  "4.0" .
+        d:rating  "4.0" ;
+        d:keywords "Toyota Voxy" .
 
 d:C19   d:harga   487800000 ;
         d:jenis   "Sedan" ;
         d:merek   "Toyota" ;
         d:nama    "Altis" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Toyota Altis" .
 
 d:C52   d:harga   890000000 ;
         d:jenis   "SUV" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Outlander PHEV" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Mitsubishi Outlander PHEV" .
 
 d:C22   d:harga   241750000 ;
         d:jenis   "Commercial" ;
         d:merek   "Toyota" ;
         d:nama    "Hilux Single Cabin" ;
-        d:rating  4.9 .
+        d:rating  4.9 ;
+        d:keywords "Toyota Hilux Single Cabin" .
 
 d:C17   d:harga   244400000 ;
         d:jenis   "Sedan" ;
         d:merek   "Toyota" ;
         d:nama    "Vios" ;
-        d:rating  3.4 .
+        d:rating  3.4 ;
+        d:keywords "Toyota Vios" .
 
 d:C28   d:harga   184500000 ;
         d:jenis   "MPV" ;
         d:merek   "Daihatsu" ;
         d:nama    "Xenia" ;
-        d:rating  4.6 .
+        d:rating  4.6 ;
+        d:keywords "Daihatsu Xenia" .
 
 d:C30   d:harga   201750000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Daihatsu" ;
         d:nama    "Sirion" ;
-        d:rating  3.1 .
+        d:rating  3.1 ;
+        d:keywords "Daihatsu Sirion" .
 
 d:C33   d:harga   144400000 ;
         d:jenis   "Commercial" ;
         d:merek   "Daihatsu" ;
         d:nama    "Grandmax PU" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Daihatsu Grandmax PU" .
 
 d:C21   d:harga   783800000 ;
         d:jenis   "Sport" ;
         d:merek   "Toyota" ;
         d:nama    "FT86" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Toyota FT86" .
 
 d:C44   d:harga   889000000 ;
         d:jenis   "MPV" ;
         d:merek   "Honda" ;
         d:nama    "Odyssey" ;
-        d:rating  3.9 .
+        d:rating  3.9 ;
+        d:keywords "Honda Odyssey" .
 
 d:C29   d:harga   200000000 ;
         d:jenis   "SUV" ;
         d:merek   "Daihatsu" ;
         d:nama    "Terios" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Daihatsu Terios" .
 
 d:C08   d:harga   219900000 ;
         d:jenis   "SUV" ;
         d:merek   "Toyota" ;
         d:nama    "Raize" ;
-        d:rating  3.9 .
+        d:rating  3.9 ;
+        d:keywords "Toyota Raize" .
 
 d:C49   d:harga   194000000 ;
         d:jenis   "Commercial" ;
         d:merek   "Mitsubishi" ;
         d:nama    "L300" ;
-        d:rating  3.8 .
+        d:rating  3.8 ;
+        d:keywords "Mitsubishi L300" .
 
 d:C46   d:harga   276500000 ;
         d:jenis   "MPV" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Xpander Cross" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Mitsubishi Xpander" .
 
 d:C13   d:harga   605800000 ;
         d:jenis   "SUV" ;
         d:merek   "Toyota" ;
         d:nama    "Fortuner 4x4" ;
-        d:rating  4.9 .
+        d:rating  4.9 ;
+        d:keywords "Toyota Fortuner 4x4" .
 
 d:C16   d:harga   136900000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Toyota" ;
         d:nama    "Agya" ;
-        d:rating  4.1 .
+        d:rating  4.1 ;
+        d:keywords "Toyota Agya" .
 
 d:C35   d:harga   198100000 ;
         d:jenis   "MPV" ;
         d:merek   "Honda" ;
         d:nama    "Mobilio" ;
-        d:rating  3.8 .
+        d:rating  3.8 ;
+        d:keywords "Honda Mobilio" .
 
 d:C48   d:harga   262650000 ;
         d:jenis   "Commercial" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Triton" ;
-        d:rating  4.1 .
+        d:rating  4.1 ;
+        d:keywords "Mitsubishi Triton" .
 
 d:C51   d:harga   488750000 ;
         d:jenis   "SUV" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Eclipse Cross" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Mitsubishi Eclipse Cross" .
 
 d:C23   d:harga   498970000 ;
         d:jenis   "Commercial" ;
         d:merek   "Toyota" ;
         d:nama    "Hiace" ;
-        d:rating  4.6 .
-
+        d:rating  4.6 ;
+        d:keywords "Toyota Hiace" .
+        
 d:C36   d:harga   257000000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Honda" ;
         d:nama    "Jazz" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Honda Jazz" .
 
 d:C43   d:harga   735250000 ;
         d:jenis   "Sedan" ;
         d:merek   "Honda" ;
         d:nama    "Accord" ;
-        d:rating  4.1 .
+        d:rating  4.1 ;
+        d:keywords "Honda Accord" .
 
 d:C09   d:harga   238030000 ;
         d:jenis   "SUV" ;
         d:merek   "Toyota" ;
         d:nama    "Rush" ;
-        d:rating  3.8 .
+        d:rating  3.8 ;
+        d:keywords "Toyota Rush" .
 
 d:C47   d:harga   502800000 ;
         d:jenis   "SUV" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Pajero Sport" ;
-        d:rating  4.6 .
+        d:rating  4.6 ;
+        d:keywords "Mitsubishi Pajero Sport" .
 
 d:C15   d:harga   238300000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Toyota" ;
         d:nama    "Yaris" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Toyota Yaris" .
 
 d:C20   d:harga   2147100000 ;
         d:jenis   "Sport" ;
         d:merek   "Toyota" ;
         d:nama    "Supra" ;
-        d:rating  3.2 .
+        d:rating  3.2 ;
+        d:keywords "Toyota Supra" .
 
 d:C14   d:harga   509800000 ;
         d:jenis   "SUV" ;
         d:merek   "Toyota" ;
         d:nama    "C-HR" ;
-        d:rating  3.8 .
+        d:rating  3.8 ;
+        d:keywords "Toyota C-HR" .
 
 d:C42   d:harga   537750000 ;
         d:jenis   "Sedan" ;
         d:merek   "Honda" ;
         d:nama    "Civic Sedan" ;
-        d:rating  4.8 .
-
+        d:rating  4.8 ;
+        d:keywords "Honda Civic Sedan" .
+        
 d:C11   d:harga   2122574500 ;
         d:jenis   "SUV" ;
         d:merek   "Toyota" ;
         d:nama    "Land Cruiser" ;
-        d:rating  4.9 .
+        d:rating  4.9 ;
+        d:keywords "Toyota Land Cruiser" .
 
 d:C05   d:harga   1218950000 ;
         d:jenis   "MPV" ;
         d:merek   "Toyota" ;
         d:nama    "Alphard" ;
-        d:rating  4.9 .
+        d:rating  4.9 ;
+        d:keywords "Toyota Alphard" .
 
 d:C01   d:harga   321100000 ;
         d:jenis   "MPV" ;
         d:merek   "Toyota" ;
         d:nama    "Innova" ;
-        d:rating  4.7 .
+        d:rating  4.7 ;
+        d:keywords "Toyota Innova" .
 
 d:C45   d:harga   221400000 ;
         d:jenis   "MPV" ;
         d:merek   "Mitsubishi" ;
         d:nama    "Xpander" ;
-        d:rating  4.6 .
+        d:rating  4.6 ;
+        d:keywords "Mitsubishi Xpander" .
 
 d:C10   d:harga   458510000 ;
         d:jenis   "SUV" ;
         d:merek   "Toyota" ;
         d:nama    "Corolla Cross" ;
-        d:rating  4.4 .
+        d:rating  4.4 ;
+        d:keywords "Toyota Corolla Cross" .
 
 d:C06   d:harga   141475000 ;
         d:jenis   "MPV" ;
         d:merek   "Toyota" ;
         d:nama    "Calya" ;
-        d:rating  4.1 .
-
+        d:rating  4.1 ;
+        d:keywords "Toyota Calya" .
+        
 d:C18   d:harga   644250000 ;
         d:jenis   "Sedan" ;
         d:merek   "Toyota" ;
         d:nama    "Camry" ;
-        d:rating  4.8 .
+        d:rating  4.8 ;
+        d:keywords "Toyota Camry" .
 
 d:C39   d:harga   490000000 ;
         d:jenis   "SUV" ;
         d:merek   "Honda" ;
         d:nama    "CR-V" ;
-        d:rating  4.1 .
+        d:rating  4.1 ;
+        d:keywords "Honda CR-V" .
 
 d:C04   d:harga   248100000 ;
         d:jenis   "MPV" ;
         d:merek   "Toyota" ;
         d:nama    "Sienta" ;
-        d:rating  3.6 .
+        d:rating  3.6 ;
+        d:keywords "Toyota Sienta" .
 
 d:C27   d:harga   120650000 ;
         d:jenis   "MPV" ;
         d:merek   "Daihatsu" ;
         d:nama    "Sigra" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Daihatsu Sigra" .
 
 d:C41   d:harga   503400000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Honda" ;
         d:nama    "Civic Hathback" ;
-        d:rating  4.7 .
+        d:rating  4.7 ;
+        d:keywords "Honda Civic Hathback" .
 
 d:C24   d:harga   424600000 ;
         d:jenis   "Commercial" ;
         d:merek   "Toyota" ;
         d:nama    "Hilux Double Cabin" ;
-        d:rating  3.6 .
+        d:rating  3.6 ;
+        d:keywords "Toyota Hilux Double Cabin" .
 
 d:C54   d:harga   150500000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Suzuki" ;
         d:nama    "Karimun 50th Anniversary Edition" ;
-        d:rating  3.0 .
+        d:rating  3.0 ;
+        d:keywords "Suzuki Karimun 50th Anniversary Edition" .
 
 d:C55   d:harga   175500000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Suzuki" ;
         d:nama    "Ignis" ;
-        d:rating  3.1 .
+        d:rating  3.1 ;
+        d:keywords "Suzuki Ignis" .
 
 d:C56   d:harga   235000000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Suzuki" ;
         d:nama    "Baleno" ;
-        d:rating  3.4 .
+        d:rating  3.4 ;
+        d:keywords "Suzuki Baleno" .
 
 d:C57   d:harga   122000000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Suzuki" ;
         d:nama    "Karimun Wagon R" ;
-        d:rating  2.8 .
+        d:rating  2.8 ;
+        d:keywords "Suzuki Karimun Wagon R" .
 
 d:C58   d:harga   302000000 ;
         d:jenis   "Hatchback" ;
         d:merek   "Suzuki" ;
         d:nama    "SX4 S-Cross" ;
-        d:rating  3.1 .
+        d:rating  3.1 ;
+        d:keywords "Suzuki SX4 S-Cross" .
 
 d:C59   d:harga   224050000 ;
         d:jenis   "SUV" ;
         d:merek   "Suzuki" ;
         d:nama    "XL7" ;
-        d:rating  3.0 .
+        d:rating  3.0 ;
+        d:keywords "Suzuki XL7" .
 
 d:C60   d:harga    395500000;
         d:jenis   "SUV" ;
         d:merek   "Suzuki" ;
         d:nama    "Jimny" ;
-        d:rating  3.6 .
+        d:rating  3.6 ;
+        d:keywords "Suzuki Jimny" .
 
 d:C61   d:harga   199400000 ;
         d:jenis   "MPV" ;
         d:merek   "Suzuki" ;
         d:nama    "Ertiga" ;
-        d:rating  3.5 .
+        d:rating  3.5 ;
+        d:keywords "Suzuki Ertiga" .
 
 d:C62   d:harga    242850000;
         d:jenis   "MPV" ;
         d:merek   "Suzuki" ;
         d:nama    "Ertiga Sport" ;
-        d:rating  3.6 .
+        d:rating  3.6 ;
+        d:keywords "Suzuki Ertiga Sport" .
 
 d:C63   d:harga   152500000 ;
         d:jenis   "Commercial" ;
         d:merek   "Suzuki" ;
         d:nama    "Carry Pick-Up" ;
-        d:rating  3.6 .
+        d:rating  3.6 ;
+        d:keywords "Suzuki Carry Pick-Up" .
 
 d:C64   d:harga   160500000 ;
         d:jenis   "Commercial" ;
         d:merek   "Suzuki" ;
         d:nama    "APV Arena" ;
-        d:rating  3.2 .
+        d:rating  3.2 ;
+        d:keywords "Suzuki APV Arena" .
 
 d:C65   d:harga   234000000 ;
         d:jenis   "Commercial" ;
         d:merek   "Suzuki" ;
         d:nama    "APV Luxury" ;
-        d:rating  3.4 .
+        d:rating  3.4 ;
+        d:keywords "Suzuki APV Luxury" .
 
 d:C66   d:harga   231800000 ;
         d:jenis   "MPV" ;
         d:merek   "Nissan" ;
         d:nama    "Livina" ;
-        d:rating  3.7 .
+        d:rating  3.7 ;
+        d:keywords "Nissan Livina" .
 
 d:C67   d:harga   465150000 ;
         d:jenis   "MPV" ;
         d:merek   "Nissan" ;
         d:nama    "Serena" ;
-        d:rating  3.5 .
+        d:rating  3.5 ;
+        d:keywords "Nissan Serena" .
 
 d:C68   d:harga   1019000000 ;
         d:jenis   "MPV" ;
         d:merek   "Nissan" ;
         d:nama    "Elgrand" ;
-        d:rating  3.5 .
+        d:rating  3.5 ;
+        d:keywords "Nissan Elgrand" .
 
 d:C69   d:harga   549750000 ;
         d:jenis   "SUV" ;
         d:merek   "Nissan" ;
         d:nama    "X-Trail" ;
-        d:rating  3.8 .
+        d:rating  3.8 ;
+        d:keywords "Nissan X-Trail" .
 
 d:C70   d:harga   481900000 ;
         d:jenis   "SUV" ;
         d:merek   "Nissan" ;
         d:nama    "Terra" ;
-        d:rating  3.7 .
+        d:rating  3.7 ;
+        d:keywords "Nissan Terra" .
 
 d:C71   d:harga   451000000 ;
         d:jenis   "SUV" ;
         d:merek   "Nissan" ;
         d:nama    "Kicks e-Power" ;
-        d:rating  3.2 .
+        d:rating  3.2 ;
+        d:keywords "Nissan Kicks e-Power" .
 
 d:C72   d:harga   208800000 ;
         d:jenis   "SUV" ;
         d:merek   "Nissan" ;
         d:nama    "Magnite" ;
-        d:rating  3.6 .
+        d:rating  3.6 ;
+        d:keywords "Nissan Magnite" .
 
 d:C73   d:harga   610300000 ;
         d:jenis   "Sedan" ;
         d:merek   "Nissan" ;
         d:nama    "Teana" ;
-        d:rating  3.4 .
+        d:rating  3.4 ;
+        d:keywords "Nissan Teana" .
 
 d:C74   d:harga   112090000 ;
         d:jenis   "MPV" ;
         d:merek   "Datsun" ;
         d:nama    "Go" ;
-        d:rating  2.6 .
+        d:rating  2.6 ;
+        d:keywords "Datsun Go" .
 
 d:C75   d:harga   120270000 ;
         d:jenis   "MPV" ;
         d:merek   "Datsun" ;
         d:nama    "Go+" ;
-        d:rating  2.8 .
+        d:rating  2.8 ;
+        d:keywords "Datsun Go+" .
 
 d:C76   d:harga   161490000 ;
         d:jenis   "SUV" ;
         d:merek   "Datsun" ;
         d:nama    "Cross" ;
-        d:rating  2.9 .
+        d:rating  2.9 ;
+        d:keywords "Datsun Cross" .
 
 d:C77   d:harga   475000000 ;
         d:jenis   "SUV" ;
         d:merek   "Isuzu" ;
         d:nama    "MU-X" ;
-        d:rating  4.0 .
+        d:rating  4.0 ;
+        d:keywords "Isuzu MU-X" .
 
 d:C78   d:harga   213800000 ;
         d:jenis   "Commercial" ;
         d:merek   "Isuzu" ;
         d:nama    "Traga" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Isuzu Traga" .
 
 d:C79   d:harga   362600000 ;
         d:jenis   "Commercial" ;
         d:merek   "Isuzu" ;
         d:nama    "D-Max" ;
-        d:rating  4.5 .
+        d:rating  4.5 ;
+        d:keywords "Isuzu D-Max" .
 
 d:C80   d:harga   330100000 ;
         d:jenis   "Commercial" ;
         d:merek   "Isuzu" ;
         d:nama    "Elf N Series" ;
-        d:rating  4.4 .
+        d:rating  4.4 ;
+        d:keywords "Isuzu Elf N Series" .
 
 d:C81   d:harga   431300000 ;
         d:jenis   "Commercial" ;
         d:merek   "Isuzu" ;
         d:nama    "Elf Microbus" ;
-        d:rating  4.2 .
+        d:rating  4.2 ;
+        d:keywords "Isuzu Elf Microbus" .
 
 d:C82   d:harga   490000000 ;
         d:jenis   "Commercial" ;
         d:merek   "Isuzu" ;
         d:nama    "GIGA F-Series" ;
-        d:rating  4.8 .
+        d:rating  4.8 ;
+        d:keywords "Isuzu GIGA F-Series" .
 
 d:C83   d:harga   448500000 ;
         d:jenis   "Commercial" ;
         d:merek   "Nissan" ;
         d:nama    "Navara" ;
-        d:rating  4.9 .
+        d:rating  4.9 ;
+        d:keywords "Nissan Navara" .
