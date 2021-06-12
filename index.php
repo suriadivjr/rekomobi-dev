@@ -45,7 +45,7 @@ if (isset($_POST['keywords'], $_POST['sortBy'])) {
                         <!-- Search form-->
                         <form method="POST" action="">
                             <div class="input-group input-group-lg">
-                                <input class="form-control" type="text" value="<?php if (isset($keywords)) echo $keywords;?>" placeholder="Enter your keyword here" aria-label="Enter your keyword here" aria-describedby="button-submit" name="keywords" />
+                                <input class="form-control" type="text" value="<?php if (isset($keywords)) echo $keywords;?>" placeholder="Enter your keyword here" aria-label="Enter your keyword here" aria-describedby="button-submit" name="keywords" required />
                                 <button class="btn btn-primary" id="button-submit" type="submit">Rekomobi
                                     Search</button>
                             </div><br>
