@@ -55,6 +55,7 @@ if (isset($_POST['jenis'], $_POST['hargaMin'], $_POST['hargaMax'], $_POST['sortB
                                     <option value="Commercial" selected="<?php if ($jenis === 'Commercial') echo 'selected' ?>">Commercial</option>
                                     <option value="Sport" selected="<?php if ($jenis === 'Sport') echo 'selected' ?>">Sport</option>
                                     <option value="Sedan" selected="<?php if ($jenis === 'Sedan') echo 'selected' ?>">Sedan</option>
+                                    <option value="Hatchback" selected="<?php if ($jenis === 'Hatchback') echo 'selected' ?>">Hatchback</option>
                                 </select>
                             </div><br>
                             <h5 class="mb-2">Insert your preferred car price range:</h5>
